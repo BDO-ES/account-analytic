@@ -55,6 +55,7 @@ Contributors
 
 * Benjamin Willig <benjamin.willig@acsone.eu>
 * Alexey Pelykh <alexey.pelykh@brainbeanapps.com>
+* Janire Olaguibel <janire.olaguibel@bdo.es>
 
 Maintainers
 ~~~~~~~~~~~
