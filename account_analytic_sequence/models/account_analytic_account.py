@@ -8,11 +8,6 @@ from odoo import api, fields, models
 class AccountAnalyticAccount(models.Model):
     _inherit = 'account.analytic.account'
 
-    code = fields.Char(
-        default=lambda self: self._default_code(),
-        copy=False,
-    )
-
     _sql_constraints = [
         (
             'code_uniq',
