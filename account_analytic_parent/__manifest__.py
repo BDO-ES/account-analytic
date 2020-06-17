@@ -21,7 +21,7 @@
     "Brainbean Apps, "
     "Odoo Community Association (OCA)",
     "website": "https://www.github.com/OCA/account-analytic.git",
-    "depends": ["account", "analytic"],
+    "depends": ["analytic"],  # Deleted "account" dependency
     "data": ["views/account_analytic_account_view.xml"],
     "demo": ["data/analytic_account_demo.xml"],
     "post_init_hook": "post_init_hook",
